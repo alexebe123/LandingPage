@@ -32,7 +32,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html">
+            <a class="nav-link" href="">
               <i class="ti-view-list-alt menu-icon"></i>
               <span class="menu-title">Tables</span>
             </a>
