@@ -21,5 +21,6 @@ Route::get('/', function () {
 });
 
 Route::get('/about',[AboutController::class,'index']);
-Route::get('/admin',[AdminController::class,'index']);
+Route::get('/admin',[AdminController::class,'index'])->name('admin');
 Route::get('/admin/tabel',[AdminController::class,'tabel'])->name('tabelpage');
+Route::get('/admin/about',[AboutController::class,'indexAdmin'])->name('aboutAdmin');

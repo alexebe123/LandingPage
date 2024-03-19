@@ -11,6 +11,6 @@ class AboutController extends Controller
         return view('about');
     }
     public function indexAdmin(){
-        return view('aboutAdmin');
+        return view('admin.pages.about');
     }
 }
